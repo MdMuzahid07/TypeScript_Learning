@@ -41,4 +41,55 @@
 
 
 
+    const Students = <T>(student: T) => {
+        const course = "NEXT Level Programmer";
+        return {
+            ...student,
+            course
+        }
+    };
+
+    interface Student1Type {
+        name: string,
+        email: string
+    }
+
+    const student1 = Students<Student1Type>({ name: "x", email: "x@gmail.com" });
+
+
+    type Student2Type = {
+        name: string,
+        email: string
+    }
+
+    const student2 = Students<Student2Type>({ name: "y", email: "y@gmail.com" });
+
+
+    console.log(student1, student2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
