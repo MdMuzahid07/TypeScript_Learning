@@ -9,6 +9,8 @@
         ram: "8 GB"
     };
     console.log(myWorkstationLaptop);
+    ;
+    ;
     const MyLaptop = {
         brand: "lenovo thinkpad",
         model: "t450s",
@@ -18,4 +20,6 @@
         ram: "8 GB"
     };
     console.log(MyLaptop, "type crated using interface");
+    ;
+    ;
 }
