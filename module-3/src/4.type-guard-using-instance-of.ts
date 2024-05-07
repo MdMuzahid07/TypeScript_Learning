@@ -1,7 +1,7 @@
-{
+{ // creating block scope
 
 
-    // instanceof guard
+    // type guard or narrowing using instanceof 
 
 
     class Animal {
@@ -102,4 +102,4 @@
 
 
 
-}
+} // creating block scope
