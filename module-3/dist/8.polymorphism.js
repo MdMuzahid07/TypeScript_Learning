@@ -25,5 +25,4 @@
     getSleepingHours(person1);
     getSleepingHours(person2);
     getSleepingHours(person3);
-    getSleepingHours(person3);
 }
