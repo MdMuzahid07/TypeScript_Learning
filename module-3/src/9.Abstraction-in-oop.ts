@@ -29,7 +29,7 @@
             console.log("im moving the car");
         };
 
-        test() {
+        test(): void {
             console.log("im just testing the car");
         }
 
@@ -51,29 +51,54 @@
 
 
 
+    // idea
+    abstract class Car2 {
+        abstract startEngine(): void
+
+        abstract stopEngine(): void
+
+        abstract move(): void
+
+        abstract test(): void
+
+    };
+
+
+
+    // implementation
+    class Tesla extends Car2 {
+
+        startEngine(): void {
+            console.log("Tesla started the engine");
+        };
+
+        stopEngine(): void {
+            console.log("Tesla stopped the engine");
+        };
+
+        move(): void {
+            console.log("Tesla moving");
+        };
+
+        test(): void {
+            console.log("im testing my new Tesla Car");
+        }
+
+    };
+
+
+    const myCar = new Tesla();
+
+    myCar.startEngine();
+
+
+
+
+
+
 
 
     // create an abstraction using abstract class =======>>>> end here
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
